@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yiming's Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./loginsystem/css.css" rel="stylesheet">
+</head>
+<body>
+ <h1 class="form__title">Welcome to my Web!</h1>
+<div class="container right-panel-active">
+    <!-- Sign Up -->
+    <div class="container__form container--signup">
+        <form action="./registersystem/registeraction.php" class="form" id="form1" method="post">
+            <h2 class="form__title">Sign Up</h2>
+            <input type="text" placeholder="Username" name="username" class="input" required/>
+            <input type="password" placeholder="Password" name="password" class="input" required/>
+            <input type="password" placeholder="Re-password" name="re_password" class="input" required/>
+            <button class="btn" type="submit">Sign Up</button>
+        </form>
+    </div>
+ 
+    <!-- Sign In -->
+    <div class="container__form container--signin">
+        <form action="./loginsystem/loginaction.php" class="form" id="form2" method="post">
+            <h2 class="form__title">Sign In</h2>
+            <input type="text" placeholder="Username" name="username" class="input" required/>
+            <input type="password" placeholder="Password" name="password" class="input" required/>
+            <a href="./registersystem/password.php" class="link">Forgot your password?</a>
+            <button class="btn" type="submit">Sign In</button>
+        </form>
+    </div>
+ 
+    <!-- Overlay -->
+    <div class="container__overlay">
+        <div class="overlay">
+            <div class="overlay__panel overlay--left">
+                <button class="btn" id="signIn">Sign In</button>
+            </div>
+            <div class="overlay__panel overlay--right">
+                <button class="btn" id="signUp">Sign Up</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./loginsystem/js.js"></script>
+ 
+</body>
+</html>
