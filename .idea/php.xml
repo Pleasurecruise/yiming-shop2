@@ -19,6 +19,9 @@
       <path value="$PROJECT_DIR$/aliyun-dysms-php-sdk/msg_sdk/vendor/guzzlehttp/guzzle" />
       <path value="$PROJECT_DIR$/aliyun-dysms-php-sdk/msg_sdk/vendor/ralouphie/getallheaders" />
       <path value="$PROJECT_DIR$/aliyun-dysms-php-sdk/api_sdk/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/vendor/suhaoxiang/aliyun-dysms-php-sdk" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="5.5.0">
@@ -26,6 +29,11 @@
   </component>
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" />
+    </phpunit_settings>
   </component>
   <component name="PsalmOptionsConfiguration">
     <option name="transferred" value="true" />
