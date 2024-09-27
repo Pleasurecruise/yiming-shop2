@@ -7,9 +7,7 @@ $input = $_SESSION['input'];
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require '../PHPMailer-6.9.1/src/Exception.php';
-require '../PHPMailer-6.9.1/src/PHPMailer.php';
-require '../PHPMailer-6.9.1/src/SMTP.php';
+require '../vendor/autoload.php';
 
 function sendEmail($input, $emailcode)
 {
